@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FisherFlow builds reliable automation systems for service businesses." />
+    <title>FisherFlow — Automation that moves your business forward</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="FisherFlow home">
+        <span class="brand-mark">F</span><span>FisherFlow</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="./get-started.html">Get Started</a>
+        <a href="./team.html">Team</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="eyebrow"><span></span>Automation built by a young, driven founder</div>
+        <h1>Automate the busywork.<br /><em>Grow the real work.</em></h1>
+        <p>FisherFlow builds reliable automation systems for service businesses — capturing leads, following up, and connecting your tools so you can focus on what actually moves the needle.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="./get-started.html">Build my plan <span aria-hidden="true">→</span></a>
+          <a class="button button-light" href="./team.html">Meet the builder</a>
+        </div>
+      </section>
+
+      <section class="benefits" aria-labelledby="benefits-title">
+        <div class="section-heading">
+          <h2 id="benefits-title">What you get</h2>
+          <p>Practical automations that save hours every week — not flashy tech for its own sake.</p>
+        </div>
+        <div class="card-grid">
+          <article class="feature-card"><div class="icon">ϟ</div><h3>Capture leads automatically</h3><p>Never miss a new inquiry — forms, DMs, and calls funnelled into one place.</p></article>
+          <article class="feature-card"><div class="icon">◷</div><h3>Reclaim your time</h3><p>Automate follow-ups, scheduling, and reminders so you stop chasing manually.</p></article>
+          <article class="feature-card"><div class="icon">⌘</div><h3>Connect your tools</h3><p>CRM, calendar, email, and spreadsheets working together without copy-paste.</p></article>
+          <article class="feature-card"><div class="icon">♢</div><h3>Reliable by design</h3><p>Built to run quietly in the background with your data kept safe.</p></article>
+        </div>
+      </section>
+
+      <section class="quiz" id="quiz" aria-labelledby="quiz-title">
+        <div class="section-heading">
+          <h2 id="quiz-title">Ready to see your plan?</h2>
+          <p>Answer a few quick questions and get a clear automation plan matched to your business — no commitment.</p>
+        </div>
+        <a class="button button-dark" href="./get-started.html">Get started <span aria-hidden="true">→</span></a>
+      </section>
+
+    </main>
+    <footer>© <span id="year"></span> FisherFlow. Built for better work.</footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
